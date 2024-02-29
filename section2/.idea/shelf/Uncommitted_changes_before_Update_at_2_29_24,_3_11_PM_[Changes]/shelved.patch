@@ -1,0 +1,153 @@
+Index: ../section4/.idea/sonarlint/issuestore/index.pb
+===================================================================
+diff --git a/../section4/.idea/sonarlint/issuestore/index.pb b/../section4/.idea/sonarlint/issuestore/index.pb
+deleted file mode 100644
+--- a/../section4/.idea/sonarlint/issuestore/index.pb	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ /dev/null	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
+@@ -1,3 +0,0 @@
+-
+-@
+-accounts/pom.xml,1/5/15d963d6c4feb0f26c44457a7d5d39d67f86cc12
+\ No newline at end of file
+Index: ../section4/.idea/compiler.xml
+===================================================================
+diff --git a/../section4/.idea/compiler.xml b/../section4/.idea/compiler.xml
+deleted file mode 100644
+--- a/../section4/.idea/compiler.xml	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ /dev/null	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
+@@ -1,23 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <annotationProcessing>
+-      <profile default="true" name="Default" enabled="true" />
+-      <profile name="Maven default annotation processors profile" enabled="true">
+-        <sourceOutputDir name="target/generated-sources/annotations" />
+-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-        <outputRelativeToContentRoot value="true" />
+-        <module name="loans" />
+-        <module name="cards" />
+-        <module name="accounts" />
+-      </profile>
+-    </annotationProcessing>
+-  </component>
+-  <component name="JavacSettings">
+-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+-      <module name="accounts" options="-parameters" />
+-      <module name="cards" options="-parameters" />
+-      <module name="loans" options="-parameters" />
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../section4/.idea/misc.xml
+===================================================================
+diff --git a/../section4/.idea/misc.xml b/../section4/.idea/misc.xml
+deleted file mode 100644
+--- a/../section4/.idea/misc.xml	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ /dev/null	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="MavenProjectsManager">
+-    <option name="originalFiles">
+-      <list>
+-        <option value="$PROJECT_DIR$/accounts/pom.xml" />
+-        <option value="$PROJECT_DIR$/loans/pom.xml" />
+-        <option value="$PROJECT_DIR$/cards/pom.xml" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../section4/.idea/modules.xml
+===================================================================
+diff --git a/../section4/.idea/modules.xml b/../section4/.idea/modules.xml
+deleted file mode 100644
+--- a/../section4/.idea/modules.xml	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ /dev/null	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/section2.iml" filepath="$PROJECT_DIR$/.idea/section2.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../section4/.idea/sonarlint/securityhotspotstore/index.pb
+===================================================================
+diff --git a/../section4/.idea/sonarlint/securityhotspotstore/index.pb b/../section4/.idea/sonarlint/securityhotspotstore/index.pb
+deleted file mode 100644
+--- a/../section4/.idea/sonarlint/securityhotspotstore/index.pb	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ /dev/null	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
+@@ -1,3 +0,0 @@
+-
+-@
+-accounts/pom.xml,1/5/15d963d6c4feb0f26c44457a7d5d39d67f86cc12
+\ No newline at end of file
+Index: .idea/sonarlint/securityhotspotstore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\ns\nCaccounts/src/main/java/com/hameem/accounts/AccountsApplication.java\u0012,c/9/c96f5f16e848ae0a983fdc278a57f509504018f0\nq\nAaccounts/src/main/java/com/hameem/accounts/entity/BaseEntity.java\u0012,1/0/10234227a271055203194eb2c18dcac4de833a6d\no\n?accounts/src/main/java/com/hameem/accounts/entity/Customer.java\u0012,e/7/e70eb7bc47d101702799626c0107e19a4c03a58b\no\n?accounts/src/main/java/com/hameem/accounts/entity/Accounts.java\u0012,a/6/a64cc092cf1b85c6985ac0151f0c63a9b235d28a\n}\nMaccounts/src/main/java/com/hameem/accounts/repository/CustomerRepository.java\u0012,3/3/333669b6624f883b29ca987e7b7f66f8a29d41c0\n}\nMaccounts/src/main/java/com/hameem/accounts/repository/AccountsRepository.java\u0012,f/0/f0a38003dd65ed7c3d7f5d9cfc9a60acb49e9148\no\n?accounts/src/main/java/com/hameem/accounts/dto/AccountsDto.java\u0012,e/4/e4940875a39406629bc0a5a4b034b726ce05246a\no\n?accounts/src/main/java/com/hameem/accounts/dto/CustomerDto.java\u0012,b/e/be3be8700545a9cf99e97ea4ac282de66c03b626\no\n?accounts/src/main/java/com/hameem/accounts/dto/ResponseDto.java\u0012,5/a/5a88e428ac2a28e40437a016378cc30546d42811\nt\nDaccounts/src/main/java/com/hameem/accounts/dto/ErrorResponseDto.java\u0012,0/a/0ae994bfe3da551be12c06c15218ffe3da2ec656\n}\nMaccounts/src/main/java/com/hameem/accounts/controller/AccountsController.java\u0012,7/5/751c04c3b572b0a267c43fdf25581be454c9229a\nz\nJaccounts/src/main/java/com/hameem/accounts/constants/AccountConstants.java\u0012,a/2/a2b756e825a698c644e5ef98942d4acdc047a5e3\nx\nHaccounts/src/main/java/com/hameem/accounts/service/IAccountsService.java\u0012,5/8/587742d20461ab385051469096e2f4be252277c4\n�\u0001\nPaccounts/src/main/java/com/hameem/accounts/service/impl/AccountsServiceImpl.java\u0012,7/5/75f101e9a247d21fe0b71a91bd877f63be806563\nu\nEaccounts/src/main/java/com/hameem/accounts/mapper/CustomerMapper.java\u0012,5/b/5b1f021475c8e5bf5648c9f8e208b64641190c14\nu\nEaccounts/src/main/java/com/hameem/accounts/mapper/AccountsMapper.java\u0012,2/6/26ed9304136958297db4aa683df217d8e04be1d9\n�\u0001\nYaccounts/src/main/java/com/hameem/accounts/exceptions/CustomerAlreadyExistsException.java\u0012,5/4/547210395deeb4a37bfcd8cefdc0376194d92817\n�\u0001\nQaccounts/src/main/java/com/hameem/accounts/exceptions/GlobalExceptionHandler.java\u0012,b/3/b338065d099b7b7f4abc1178d78ae1c6b4293a2d\n�\u0001\nTaccounts/src/main/java/com/hameem/accounts/exceptions/ResourceNotFoundException.java\u0012,3/e/3e3c1d7914e41452fb013e0a61d7b1b23a4f69e7\nt\nDaccounts/src/main/java/com/hameem/accounts/audit/AuditAwareImpl.java\u0012,d/e/de0e181393692c0b5af8e2aa007710f938f18ed4\n@\n\u0010accounts/pom.xml\u0012,1/5/15d963d6c4feb0f26c44457a7d5d39d67f86cc12\nX\n(cards/src/main/resources/application.yml\u0012,c/a/caa9e85f58e52701723033f20d8635c66ac2699a\nX\n(loans/src/main/resources/application.yml\u0012,f/7/f74f976320aa562c6e975edce591212af10fe7aa\nm\n=cards/src/main/java/com/eazybytes/cards/CardsApplication.java\u0012,4/3/43e3e52ee44935c281ca637c174006872dfc6bea\n=\n\rcards/pom.xml\u0012,0/3/03d98379707442ca08c75c7f83cbeac97dbff921
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/securityhotspotstore/index.pb b/.idea/sonarlint/securityhotspotstore/index.pb
+--- a/.idea/sonarlint/securityhotspotstore/index.pb	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ b/.idea/sonarlint/securityhotspotstore/index.pb	(date 1709205086950)
+@@ -49,4 +49,16 @@
+ =cards/src/main/java/com/eazybytes/cards/CardsApplication.java,4/3/43e3e52ee44935c281ca637c174006872dfc6bea
+ =
+ 
+-cards/pom.xml,0/3/03d98379707442ca08c75c7f83cbeac97dbff921
+\ No newline at end of file
++cards/pom.xml,0/3/03d98379707442ca08c75c7f83cbeac97dbff921
++=
++
++loans/pom.xml,6/8/681af2a2e51bca85d1898b7c770ef512fc922995
++x
++Haccounts/src/test/java/com/hameem/accounts/AccountsApplicationTests.java,6/2/6254e5fefad94e17594191bc2fe87ba7d9c65453
++C
++accounts/.gitignore,5/8/58836e02c7981b698078e724a04fe00fc03d8bbc
++=
++
++accounts/mvnw,b/8/b82670a19ef280180cbdcb51e2638525c6bb8040
++A
++accounts/mvnw.cmd,b/1/b1f8fe7e56f4f7c1a22898b6d052d43e76798b6b
+\ No newline at end of file
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\ns\nCaccounts/src/main/java/com/hameem/accounts/AccountsApplication.java\u0012,c/9/c96f5f16e848ae0a983fdc278a57f509504018f0\nq\nAaccounts/src/main/java/com/hameem/accounts/entity/BaseEntity.java\u0012,1/0/10234227a271055203194eb2c18dcac4de833a6d\no\n?accounts/src/main/java/com/hameem/accounts/entity/Customer.java\u0012,e/7/e70eb7bc47d101702799626c0107e19a4c03a58b\no\n?accounts/src/main/java/com/hameem/accounts/entity/Accounts.java\u0012,a/6/a64cc092cf1b85c6985ac0151f0c63a9b235d28a\n}\nMaccounts/src/main/java/com/hameem/accounts/repository/CustomerRepository.java\u0012,3/3/333669b6624f883b29ca987e7b7f66f8a29d41c0\n}\nMaccounts/src/main/java/com/hameem/accounts/repository/AccountsRepository.java\u0012,f/0/f0a38003dd65ed7c3d7f5d9cfc9a60acb49e9148\no\n?accounts/src/main/java/com/hameem/accounts/dto/AccountsDto.java\u0012,e/4/e4940875a39406629bc0a5a4b034b726ce05246a\no\n?accounts/src/main/java/com/hameem/accounts/dto/CustomerDto.java\u0012,b/e/be3be8700545a9cf99e97ea4ac282de66c03b626\no\n?accounts/src/main/java/com/hameem/accounts/dto/ResponseDto.java\u0012,5/a/5a88e428ac2a28e40437a016378cc30546d42811\nt\nDaccounts/src/main/java/com/hameem/accounts/dto/ErrorResponseDto.java\u0012,0/a/0ae994bfe3da551be12c06c15218ffe3da2ec656\n}\nMaccounts/src/main/java/com/hameem/accounts/controller/AccountsController.java\u0012,7/5/751c04c3b572b0a267c43fdf25581be454c9229a\nz\nJaccounts/src/main/java/com/hameem/accounts/constants/AccountConstants.java\u0012,a/2/a2b756e825a698c644e5ef98942d4acdc047a5e3\nx\nHaccounts/src/main/java/com/hameem/accounts/service/IAccountsService.java\u0012,5/8/587742d20461ab385051469096e2f4be252277c4\n�\u0001\nPaccounts/src/main/java/com/hameem/accounts/service/impl/AccountsServiceImpl.java\u0012,7/5/75f101e9a247d21fe0b71a91bd877f63be806563\nu\nEaccounts/src/main/java/com/hameem/accounts/mapper/CustomerMapper.java\u0012,5/b/5b1f021475c8e5bf5648c9f8e208b64641190c14\nu\nEaccounts/src/main/java/com/hameem/accounts/mapper/AccountsMapper.java\u0012,2/6/26ed9304136958297db4aa683df217d8e04be1d9\n�\u0001\nYaccounts/src/main/java/com/hameem/accounts/exceptions/CustomerAlreadyExistsException.java\u0012,5/4/547210395deeb4a37bfcd8cefdc0376194d92817\n�\u0001\nQaccounts/src/main/java/com/hameem/accounts/exceptions/GlobalExceptionHandler.java\u0012,b/3/b338065d099b7b7f4abc1178d78ae1c6b4293a2d\n�\u0001\nTaccounts/src/main/java/com/hameem/accounts/exceptions/ResourceNotFoundException.java\u0012,3/e/3e3c1d7914e41452fb013e0a61d7b1b23a4f69e7\nt\nDaccounts/src/main/java/com/hameem/accounts/audit/AuditAwareImpl.java\u0012,d/e/de0e181393692c0b5af8e2aa007710f938f18ed4\n@\n\u0010accounts/pom.xml\u0012,1/5/15d963d6c4feb0f26c44457a7d5d39d67f86cc12\nX\n(cards/src/main/resources/application.yml\u0012,c/a/caa9e85f58e52701723033f20d8635c66ac2699a\nX\n(loans/src/main/resources/application.yml\u0012,f/7/f74f976320aa562c6e975edce591212af10fe7aa\nm\n=cards/src/main/java/com/eazybytes/cards/CardsApplication.java\u0012,4/3/43e3e52ee44935c281ca637c174006872dfc6bea\n=\n\rcards/pom.xml\u0012,0/3/03d98379707442ca08c75c7f83cbeac97dbff921
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+--- a/.idea/sonarlint/issuestore/index.pb	(revision e74de79d15f721db2c14ced5e78584e8665bfa81)
++++ b/.idea/sonarlint/issuestore/index.pb	(date 1709205086950)
+@@ -49,4 +49,16 @@
+ =cards/src/main/java/com/eazybytes/cards/CardsApplication.java,4/3/43e3e52ee44935c281ca637c174006872dfc6bea
+ =
+ 
+-cards/pom.xml,0/3/03d98379707442ca08c75c7f83cbeac97dbff921
+\ No newline at end of file
++cards/pom.xml,0/3/03d98379707442ca08c75c7f83cbeac97dbff921
++=
++
++loans/pom.xml,6/8/681af2a2e51bca85d1898b7c770ef512fc922995
++x
++Haccounts/src/test/java/com/hameem/accounts/AccountsApplicationTests.java,6/2/6254e5fefad94e17594191bc2fe87ba7d9c65453
++C
++accounts/.gitignore,5/8/58836e02c7981b698078e724a04fe00fc03d8bbc
++=
++
++accounts/mvnw,b/8/b82670a19ef280180cbdcb51e2638525c6bb8040
++A
++accounts/mvnw.cmd,b/1/b1f8fe7e56f4f7c1a22898b6d052d43e76798b6b
+\ No newline at end of file
